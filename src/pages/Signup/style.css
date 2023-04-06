@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sign-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: #f7f7f7;
+}
+
+.left-s-container {
+    min-width: 825px;
+    width: 925px;
+
+    background-color: #FFFFFF;
+    box-shadow: 28px 0px 50.4863px rgba(0, 0, 0, 0.17);
+}
+
+
+.right-s-container {
+    background-color: #f7f7f7;
+}
+
+.left-image {
+    position: relative;
+    top: 156px;
+}

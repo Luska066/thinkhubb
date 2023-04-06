@@ -1,0 +1,61 @@
+button {
+    border: none;
+}
+
+.SignupButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    cursor: pointer;
+
+    width: 429.13px;
+    height: 50.49px;
+    left: 984px;
+    top: 712px;
+
+    border: 1.00973px solid #1DC78A;
+    border-radius: 8.07781px;
+
+    margin-top: 4em;
+    transition: all .6s;
+}
+
+.SignupButton > p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+
+    text-decoration: none;
+    font-style: normal;
+
+    width: 153px;
+    height: 48px;
+    left: 1121.6px;
+    top: 725.13px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16.1556px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #1E2772;
+}
+/*Animação Botão*/
+.SignupButton:hover {
+    box-shadow: lightgray 1px 1px 1px;
+    transform: scale(1.05,1.05);
+}
+
+/*MEDIA QUERY*/
+
+
+.Link {
+    text-decoration: none;
+    color: white;
+    font-style: normal;
+}

@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+}
+
+.Integration-Panel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.back-button{
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+
+.HeaderBoxMenu{
+    padding-left: 3%;
+    display: flex;
+    align-items: center;
+
+}
+
+.HeaderBoxMenu>span{
+    display: flex;
+    align-items: center;
+
+}
+.HeaderBoxMenu>span>img{
+   margin-left: 10px;
+   padding-left:10px ;
+}
+
+
+
+
+.content {
+    width: 100%;
+    height: 100%;
+}
+
+.integration-box {
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+    width: 1047px;
+    height: 573px;
+    padding-top: 1em;
+    padding-left: 1em;
+    background: #FFFFFF;
+    border: 1px solid #0157FD;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+
+
+    background-color: #FFFFFF;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+
+
+
+
+table {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.1362px;
+    line-height: 21px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.Header-tb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+table > tr {
+    align-items: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 0px;
+}
+
+table>td {
+
+    display: flex;
+    justify-content: center;
+    justify-items: left;
+
+}
+
+table>img {
+    width: 100%;
+}
+
+table>.icon {
+    padding-bottom: .5em;
+    width: 100%;
+}
+
+
+
+thead {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+th {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+    flex-wrap: wrap;
+
+    padding-bottom: .5em;
+}
+
+.td {
+    text-align: left;
+    width: 252px;
+}
+
+.td>img {
+    position: absolute;
+    margin-left: 16em;
+}
+
+.nomeIcon {
+    text-align: left;
+    width: 212px;
+    height: 20px;
+    padding-right: 6em;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.1362px;
+    line-height: 21px;
+}
+
+
+.itens {
+    display: flex;
+    padding: 2px;
+    height: 50%;
+}
+
+.itens>td {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 0px;
+    height: 18px;
+    padding: 1em;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.1362px;
+    line-height: 21px;
+
+    color: #000000;
+}
+
+.onne-th {
+    margin-left: 0em;
+    text-align: left;
+    height: 2px;
+    width: 245px;
+}
+
+.onne-th-2 {
+    width: 255px;
+    height: 2px;
+    text-align: left;
+}
+
+.onne-th-3 {
+    width: 250px;
+
+    
+}
+
+.onne-th-4 {
+    
+    width: 110px;
+
+
+}
+
+.icons {
+    position: relative;
+}
+
+span, img {
+    cursor: pointer;
+}
+
+span:hover {
+    color: slateblue;
+}
+
+
+.TableLine {
+    height: 1px;
+}

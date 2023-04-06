@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#LoginLogo {
+    width: 274px;
+    height: 121px;
+    align-self: center;
+}
+
+strong {
+    align-self: center;
+}
+
+.form {
+    position: relative;
+    left: 27px;
+}
+
+.RecoveryLink {
+    margin-top: 5px;
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+

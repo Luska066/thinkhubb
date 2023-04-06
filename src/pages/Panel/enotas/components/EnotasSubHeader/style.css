@@ -1,0 +1,56 @@
+.relatorio-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 116px;
+    height: 38px;
+    background: #0157FD;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-right: 10px;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.1362px;
+    line-height: 21px;
+}
+
+.configuracoes-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 159px;
+    height: 38px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.1362px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: #1DC78A;
+    border: 0.5px solid rgba(29, 199, 138, 0.7);
+    border-radius: 5px;
+}
+
+.configuracoes-btn>img {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+.registro-btn {
+    width: 28px;
+    background-color: transparent;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.1362px;
+    line-height: 21px;
+}
+
+.registro-btn>img {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}

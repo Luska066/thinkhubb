@@ -1,0 +1,115 @@
+.box-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.box-container>p {
+    margin-top: 2em;
+}
+
+
+.box-container>.p2 {
+    width: 250px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 119%;
+    /* or 24px */
+
+    text-align: center;
+
+    color: #555555;
+}
+
+.box-container>.p1 {
+    width: 250px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 119%;
+    /* or 24px */
+
+    text-align: center;
+}
+
+.box-container>.final {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.1362px;
+    line-height: 21px;
+
+}
+
+.actions {
+
+    display: flex;
+    justify-content: center;
+
+    bottom: 0;
+}
+
+.RetangularButton {
+
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 140px;
+    height: 106px;
+    left: 678px;
+    top: 524px;
+
+    box-shadow: 0px 12.1167px 24.2334px rgba(1, 11, 253, 0.12);
+    border-radius: 8.07781px;
+
+    transition: all .6s;
+}
+
+.bg-green {
+    background-color: #1DC78A;
+    margin-right: 20px;
+    transform: all .6s;
+}
+
+
+.bg-blue {
+    background-color: #0157FD;
+    transform: all .6s;
+}
+
+
+.RetangularButton>p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 109px;
+    height: 56px;
+    left: 694px;
+    top: 565px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16.1556px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFF;
+}
+
+.RetangularButton:hover {
+    box-shadow: lightgray 1px 1px 1px;
+    transform: scale(1.05, 1.05);
+}

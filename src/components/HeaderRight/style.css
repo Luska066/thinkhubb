@@ -1,0 +1,48 @@
+.HeaderRight {
+    background: linear-gradient(90deg, #0157FD -40.24%, #1DC78A 101.94%);
+    width: 100%;
+    height: 77px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.HeaderRight>img {
+    width: 146px;
+    height: 67px;
+    margin-left: 45px;
+    margin-top: 5px;
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    width: 300px;
+}
+
+.username {
+    /* Sankhya */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16.1556px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.userImage {
+
+    width: 43px;
+    height: 43px;
+
+}
+
+span>img{
+    transition:  all .6s;
+}
+
+span>img:hover{
+    transform: scale(1.1,1.1);
+}

@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+.Recovery-Page {
+    background-color: lightgray;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.recovery-container {
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+
+    width: 618px;
+    height: 747px;
+
+    background-color: #FFFFFF;
+    border-radius: 20px;
+
+}
+
+.LoginLogo {
+    width: 100%;
+    position: relative;
+    width: 274px;
+    height: 121px;
+    top: 122px;
+    margin-bottom: 147px;
+    text-align: center;
+}
+
+.Typography{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.Action {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+
+}
+
+.Email {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.red {color: red}

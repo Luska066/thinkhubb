@@ -1,0 +1,28 @@
+.login-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #F4F4F4;
+    display: flex;
+}
+
+.left-container {
+
+    width: 957px;
+    background-color: #F4F4F4;
+}
+
+.right-container {
+
+    width: 483px;
+    background-color: #FFFFFF;
+    box-shadow: -28px 0px 50.4863px rgba(0, 0, 0, 0.05);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mancha {
+    width: 140px;
+}
